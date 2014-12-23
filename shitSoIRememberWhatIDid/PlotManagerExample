@@ -1,0 +1,3 @@
+To push events to a character's events, where the character is named Bob
+
+var eventStream = characterActionEventStream('Bob');

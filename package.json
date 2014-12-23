@@ -1,0 +1,40 @@
+{
+  "name": "projektx",
+  "version": "0.0.0",
+  "description": "FRP RPG engine",
+
+  "author": {
+    "name": "Daniel Ingraham",
+    "email": "daniel@danielingraham.com",
+    "url": "danielingraham.com"
+  },
+  "repository": "Carrington/projektx",
+  "license": "No License",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "projektx",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "projektx": "cli.js"
+  }
+}
